@@ -1,0 +1,126 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleQuickStart
+metadata:
+  name: nodejs-serverless-function
+spec:
+  conclusion: |-
+    You just learned how to create a NodeJs serverless function using kn func commands in OpenShift Serverless Function! To
+    learn more about developing OpenShift serverless functions, take a look at our [Getting started with functions](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.9/html-single/serverless/index#serverless-functions-getting-started).
+  description: Learn how to develop and deploy a NodeJs serverless function application.
+  displayName: Get started with NodeJs Serverless Function
+  durationMinutes: 10
+  icon: |-
+    data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UwMzQwMDt9LmNscy0ye2ZpbGw6I2NlMmUwMDt9LmNscy0ze2ZpbGw6bm9uZTt9LmNscy00e2ZpbGw6I2ZmZjt9LmNscy01e2ZpbGw6I2RjZGNkYzt9LmNscy02e2ZpbGw6I2FhYTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPlJlZF9IYXQtT3BlbnNoaWZ0NC1DYXRhbG9nX0ljb25zLVNlcnZlcmxlc3M8L3RpdGxlPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNTAiIGN5PSI1MCIgcj0iNTAiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik04NS4zNiwxNC42NEE1MCw1MCwwLDAsMSwxNC42NCw4NS4zNloiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik00MC41Nyw0Ny40MmEzLjg5LDMuODksMCwxLDAsMy44OCwzLjg4QTMuODksMy44OSwwLDAsMCw0MC41Nyw0Ny40MloiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMS40Miw0Ny40MkEzLjg5LDMuODksMCwxLDAsMjUuMyw1MS4zLDMuODksMy44OSwwLDAsMCwyMS40Miw0Ny40MloiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik01MC4wOSw0OC44NmgtLjE4YTQuMTEsNC4xMSwwLDAsMS0zLjI2LTEuNjMsNy42OSw3LjY5LDAsMCwwLTEyLjE2LDAsNC4xMyw0LjEzLDAsMCwxLTMuMjYsMS42M0gzMWE0LjA5LDQuMDksMCwwLDEtMy4yNS0xLjYzQTcuNjksNy42OSwwLDAsMCwxNCw1MS45M2gwVjY0LjZhMi43OSwyLjc5LDAsMCwwLDIuNzksMi43OWgxNS44TDUxLjM0LDQ4LjY2QTQsNCwwLDAsMSw1MC4wOSw0OC44NloiLz48cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik03OC4wNSw0NC4yNWE3LjY1LDcuNjUsMCwwLDAtNS44NSwzQTQuMSw0LjEsMCwwLDEsNjksNDguODZoLS4xOWE0LjEzLDQuMTMsMCwwLDEtMy4yNi0xLjYzLDcuNjksNy42OSwwLDAsMC0xMi4xNiwwLDQuMTYsNC4xNiwwLDAsMS0yLDEuNDNMMzIuNjEsNjcuMzlIODMuMTlBMi43OSwyLjc5LDAsMCwwLDg2LDY0LjZWNTIuMDdBNy43Nyw3Ljc3LDAsMCwwLDc4LjA1LDQ0LjI1WiIvPjxwYXRoIGNsYXNzPSJjbHMtNiIgZD0iTTIxLjEsNjNoMTBhMS44MywxLjgzLDAsMSwwLDAtMy42NmgtMTBhMS44MywxLjgzLDAsMCwwLDAsMy42NloiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjQwLjU3IiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjQwLjU3IiBjeT0iMjguMjMiIHI9IjEuMzUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjU5LjcyIiBjeT0iMjguMjMiIHI9IjEuMzUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjIxLjQyIiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjUwIiBjeT0iNDMuNDUiIHI9IjIuOTMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjY4Ljg5IiBjeT0iNDMuNDUiIHI9IjIuOTMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjMxLjA5IiBjeT0iNDMuNDUiIHI9IjIuOTMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNiIgY3g9Ijc3Ljk0IiBjeT0iNTQuMzEiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNiIgY3g9IjY4LjkxIiBjeT0iNTQuMzEiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9Ijc3Ljk0IiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjU5LjcyIiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjUwIiBjeT0iMzMuMSIgcj0iMy4wMSIvPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuMDkiIGN5PSIzMy4xIiByPSIzLjAxIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTQiIGN4PSI2OC44OSIgY3k9IjMzLjEiIHI9IjMuMDEiLz48L3N2Zz4=
+  introduction: |-
+    This quick start guides you through developing and deploying a NodeJs serverless
+    function using OpenShift Serverless Function and _kn func_ commands.
+  nextQuickStart:
+    - ''
+  prerequisites:
+    - ''
+  tasks:
+  - title: Launch a web terminal
+    description: |- 
+      ### To launch the web terminal:
+      1. Click the command line terminal icon (**>_**) on the upper right of the console.
+      2. A web terminal instance is displayed in the Command line terminal pane. This instance is automatically logged in with your credentials.
+      3. In the _Command line terminal_ pane, select a **{username}-dev** project (e.g., _doh-dev_) from the Project drop-down list to create the serverless function in.
+      3. Click **Start** to initialize the web terminal using the selected project.
+      4. You will see _**"Connecting to your OpenShift command line terminal ..."**_ while the terminal command line is initializing.
+    review:
+      failedTaskHelp: |-
+        This task isn’t verified yet. Try the task again after restarting the terminal.
+      instructions: |-
+        #### To verify the command line terminal was successfully initialized:
+        Do you see the **bash-4.4 ~ $** prompt in the command line terminal?
+    summary:
+      failed: Try the steps again.
+      success: You just initialized a new command line terminal!
+  - title: Create a new NodeJs serverless function project
+    description: |-
+      ### To create a new NodeJs serverless function project:
+      1. In the command line terminal, run **_kn func create nodejs-func -l node_** command.
+      2. Verify that a new **_nodejs-func_** function is created in **home/user/nodejs-func** directory.
+      3. Open a **_func.yaml_** file to understand how the NodeJs function is specified. Run the **_cat /home/user/nodejs-func/func.yaml_** command in the terminal. 
+      4. Explore the function properties look like. such as _name_, _runtime_, and _builder_. For example, the runtime should be defined as _node_ to run NodeJs applications.
+    review:
+      failedTaskHelp: |-
+        This task isn’t verified yet. Try the task again after restarting the terminal.
+      instructions: |-
+        #### To verify the NodeJs serverless function created properly:
+        Open a **func.yaml** file in _/home/user/nodejs-func_ directory using _vi_ or _cat_ tool. Do you see **quay.io/boson/faas-nodejs-builder:v0.8.4** for the _builder_ image property? 
+        #### Note that the image version can be different from your OpenShift cluster.
+    summary:
+      failed: Try the steps again.
+      success: You just created a new NodeJs serverless function using Knative command!
+  - title: Build the NodeJs serverless function
+    description: |-
+      ### Before you run the function, you need to build the function project using the _kn func build_ command:
+      1. Open the **index.js** file in _/home/user/nodejs-func_ directory to understand how the serverless function is implemented.
+      2. Move to **invokeDestructured()** method in the _index.js_ file. Then, you will see the function implements a RESTful API to return **Hello ${name}!**.
+      3. Change current directory to the function project using **cd /home/user/nodejs-func** command. 
+      4. Run **kn func build -p /home/user/nodejs-func -r quay.io/danieloh30 -v** command.
+      5. The build command reads the func.yaml file from the function project directory to determine the image name and registry.
+    review:
+      failedTaskHelp: |-
+        This task isn’t verified yet. Try the task again after restarting the terminal.
+      instructions: |-
+        #### To verify that the event connected to your Knative service:
+        Go to the **Topology** view.
+        Do you see a PingSource connected by a gray line to the side of your
+        application?
+    summary:
+      failed: Try the steps again.
+      success: You just wired an Event Source to your Knative Service!
+  - title: Deploy the NodeJs serverless function to OpenShift
+    description: |-
+      ### To force a revision and set traffic distribution:
+      1. In **Topology**, click the revision inside your service to view its
+      details. The badges under the Pod ring and at the top of the detail
+      panel should be (REV).
+      2. In the side panel, click the **Resources** tab.
+      3. Scroll down and click the configuration associated with your service.
+      4. Go to the resource’s **YAML** tab.
+      5. Scroll all the way down until you see `timeoutSeconds`.
+      6. Change the value from `300` to `30` and click **Save**.
+      7. Go back to the **Topology** view.
+      8. Click your service. The badge at the top of the side panel should be
+      (KSVC).
+      9. In the side panel, click the **Resources** tab.
+      10. Next to **Revisions**, click **Set Traffic Distribution**.
+      11. Click **Add Revision**.
+      12. In the **Revision** dropdown, select the new revision.
+      13. In the **Split** column, set both revisions to **50**.
+      14. Click **Save**.
+      You should now be able to watch as the Pod rings for each revision scale
+      up and down each time the application is pinged.
+    review:
+      failedTaskHelp: |-
+        This task isn’t verified yet. Try the task again after restarting the terminal.
+      instructions: |-
+        #### To verify that you forced a new revision and set traffic
+        distribution:
+        Make sure you are still in **Topology** view.
+        Do you see two revisions in your Knative Service?
+    summary:
+      failed: Try the steps again.
+      success: You just set a traffic distribution for your Serverless app!
+  - title: Delete the NodeJs serverless function
+    description: |-
+      ### To delete the application you just created:
+      1. Click your application’s name. The badge at the top of the side panel
+      should be (A).
+      2. At the top of the resource details panel, click the **Actions** list.
+      3. Click **Delete application**.
+      4. To confirm deletion, type the application’s name in the **Name**
+      field, and then click **Delete**.
+    review:
+      failedTaskHelp: |-
+        This task isn’t verified yet. Try the task again after restarting the terminal.
+      instructions: |-
+        #### To verify you deleted your application:          :
+        Make sure you are still in **Topology** view.
+        Has the Sample Serverless App been removed?
+    summary:
+      failed: Try the steps again.
+      success: You just deleted your Serverless app!
