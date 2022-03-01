@@ -124,7 +124,7 @@ spec:
     description: |-
       To deploy the functions to the OpenShift cluster on the developer sandbox:
       1. Open the **application.properties** file in _src/main/resources_ directory.
-      2. Replace **USERNAME** with your username (e.g. _doh_). You can also find your username in OpenShift web console:
+      2. Uncomment the following configuration. Then, replace **USERNAME** with your username (e.g. _doh_). You can also find your username in OpenShift web console:
       ```
       quarkus.container-image.group=USERNAME-dev
       }
