@@ -215,6 +215,10 @@ spec:
 
         quarkus.container-image.group=USERNAME-dev
 
+<<<<<<< HEAD
+=======
+        }
+>>>>>>> 250523b6992465eee2eabf68b02997c143bb4939
 
         ```
 
@@ -351,4 +355,8 @@ spec:
       summary:
         failed: Try the steps again.
         success: You just accessed the deployed serverless functions on OpenShift!
+<<<<<<< HEAD
       title: Access the functions on OpenShift
+=======
+      title: Access the functions on OpenShift
+>>>>>>> 250523b6992465eee2eabf68b02997c143bb4939
