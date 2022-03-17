@@ -215,11 +215,6 @@ spec:
 
         quarkus.container-image.group=USERNAME-dev
 
-<<<<<<< HEAD
-=======
-        }
->>>>>>> 250523b6992465eee2eabf68b02997c143bb4939
-
         ```
 
         3. Go back to OpenShift web console. Then, click on your **username**
