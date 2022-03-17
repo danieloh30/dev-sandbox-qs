@@ -215,7 +215,6 @@ spec:
 
         quarkus.container-image.group=USERNAME-dev
 
-        }
 
         ```
 
