@@ -1,0 +1,351 @@
+﻿apiVersion: console.openshift.io/v1
+kind: ConsoleQuickStart
+metadata:
+  name: quarkus-serverless-function
+spec:
+  conclusion: >-
+    You just learned how to create a Quarkus serverless function using Quarkus
+    Funqy extension with OpenShift Serverless! To
+
+    learn more about developing Kubernetes Native Java applications, take a look
+    at our [Quarkus Guides](https://quarkus.io/guides/).
+  description: >-
+    Learn how to develop and deploy Quarkus serverless functions to Red Hat
+    OpenShift.
+  displayName: Get started with Quarkus serverless functions
+  durationMinutes: 10
+  icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojNDY5NWViO30uY2xzLTJ7ZmlsbDojZmYwMDRhO30uY2xzLTN7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+cXVhcmt1c19pY29uX3JnYl8xMDI0cHhfcmV2ZXJzZTwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjY2OS4zNCAxODAuNTcgNTEyIDI3MS40MSA2NjkuMzQgMzYyLjI1IDY2OS4zNCAxODAuNTciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzU0LjY2IDE4MC41NyAzNTQuNjYgMzYyLjI1IDUxMiAyNzEuNDEgMzU0LjY2IDE4MC41NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMyIgcG9pbnRzPSI2NjkuMzQgMzYyLjI1IDUxMiAyNzEuNDEgMzU0LjY2IDM2Mi4yNSA1MTIgNDUzLjA5IDY2OS4zNCAzNjIuMjUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMTg4Ljc2IDQ2Ny45MyAzNDYuMSA1NTguNzYgMzQ2LjEgMzc3LjA5IDE4OC43NiA0NjcuOTMiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzQ2LjEgNzQwLjQ0IDUwMy40MyA2NDkuNiAzNDYuMSA1NTguNzYgMzQ2LjEgNzQwLjQ0Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0zIiBwb2ludHM9IjM0Ni4xIDM3Ny4wOSAzNDYuMSA1NTguNzYgNTAzLjQzIDY0OS42IDUwMy40MyA0NjcuOTMgMzQ2LjEgMzc3LjA5Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjY3Ny45IDc0MC40NCA2NzcuOSA1NTguNzYgNTIwLjU3IDY0OS42IDY3Ny45IDc0MC40NCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSI4MzUuMjQgNDY3LjkzIDY3Ny45IDM3Ny4wOSA2NzcuOSA1NTguNzYgODM1LjI0IDQ2Ny45MyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMyIgcG9pbnRzPSI1MjAuNTcgNjQ5LjYgNjc3LjkgNTU4Ljc2IDY3Ny45IDM3Ny4wOSA1MjAuNTcgNDY3LjkzIDUyMC41NyA2NDkuNiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg1My40NywxSDE3MC41M0M3Ny4yOSwxLDEsNzcuMjksMSwxNzAuNTNWODUzLjQ3QzEsOTQ2LjcxLDc3LjI5LDEwMjMsMTcwLjUzLDEwMjNoNDY3LjdMNTEyLDcxNi4zOSw0MjAuNDIsOTEwSDE3MC41M0MxMzkuOSw5MTAsMTE0LDg4NC4xLDExNCw4NTMuNDdWMTcwLjUzQzExNCwxMzkuOSwxMzkuOSwxMTQsMTcwLjUzLDExNEg4NTMuNDdDODg0LjEsMTE0LDkxMCwxMzkuOSw5MTAsMTcwLjUzVjg1My40N0M5MTAsODg0LjEsODg0LjEsOTEwLDg1My40Nyw5MTBINzA1LjI4bDQ2LjUyLDExM0g4NTMuNDdjOTMuMjQsMCwxNjkuNTMtNzYuMjksMTY5LjUzLTE2OS41M1YxNzAuNTNDMTAyMyw3Ny4yOSw5NDYuNzEsMSw4NTMuNDcsMVoiLz48L3N2Zz4K
+  introduction: >-
+    This quick start guides you through developing and deploying a Quarkus
+    serverless
+
+    function using Quarkus Funqy extension and OpenShift Serverless Function.
+  nextQuickStart:
+    - ''
+  prerequisites:
+    - ''
+  tasks:
+    - description: >-
+        To launch CodeReady Workspaces:
+
+        1. Click the [Application Launcher]{{highlight qs-masthead-applications}} in the top banner of the OpenShift
+        Console. 
+        
+        2. Click the  **CodeReady Workspaces** item in the **Red Hat
+        Applications** section to launch a new workspace.
+
+        3. Log in with **DevSandbox**.
+
+        4. A web browser or tab will open automatically. Click on **Create
+        Workspace** on the left menu.
+
+        5. Enter the following URL to **Git Repo URL** field:
+
+        ```
+
+        https://github.com/danieloh30/quarkus-funqy-qs.git
+
+        ``` 
+
+        6. Click on **Create & Open** to start your workspace. Note that it takes a few minutes to start
+        a new workspace. If a message is displayed in the bottom right corner asking if the repository is a safe repository to clone, click **Yes, i trust** to continue.  If prompted to Restart your workspace, click **Restart** to continue.
+      review:
+        failedTaskHelp: This task isn’t verified yet. Try the task again.
+        instructions: |-
+          #### To verify your new workspace was successfully created:
+          You should see a **quarkus-funqy-qs** item in the left Explorer menu. Once the workspace is running, do you see a message saying **Welcome To Your Workspace**?
+      summary:
+        failed: Try the steps again.
+        success: You just created a new workspace in CodeReady Workspaces!
+      title: Launch CodeReady Workspaces
+    - description: >-
+        To run Quarkus development mode (Live Coding) in CodeReady Workspaces:
+
+        1. Click **Terminal** in the top menu bar and click the **Open Terminal in specific container** item.  Click on the **vscode-javaxxx** item to open a terminal.  Note that CodeReady Workspaces is providing a workspace with different containers for each of the tools.
+
+        2. Run the following Maven command in the terminal window:
+
+        ```
+
+        mvn quarkus:dev
+
+        ```
+
+        It might take a few minutes to download all dependencies and
+        build the application. There are two processes that are starting on ports 5005 and 8080. 
+
+        4. Click **yes** on the popup to open the **8080 port** (_A new
+        process is now listening on port 8080 but is listening on interface
+        ::xxxx:xxxx:x which is internal..._).
+
+        5. Click **X** to close the popup the debug popoup message (_A new process is
+        now listening on port 5005 but is listening on interface 127.0.0.1 which
+        is internal..._).
+      review:
+        failedTaskHelp: This task isn’t verified yet. Try the task again.
+        instructions: >-
+          #### To verify the Quarkus development mode is running properly:
+
+          Do you see the logs (_Profile dev activated. Live Coding activated._)
+          in the terminal? 
+      summary:
+        failed: Try the steps again.
+        success: >-
+          You're now running the Quarkus development mode to activate the Live
+          Coding!
+      title: Run the Live Coding to develop new serverless functions
+    - description: >-
+        To test your first serverless function:
+
+        1. In the project explorer, go to the _src/main/java/org/acme_ directory and open the **MyFunctions.java** file.
+
+        2. The **@Funq** annotation exposes the _hello_ method
+        as a serverless function based on the **Funqy API**. The function name
+        is equivalent to the method name (_hello_) by default:
+
+        ```
+
+        @Funq
+
+        public String hello() {
+            return "Welcome, Quarkus Serverless Functions on the Developer Sandbox!";
+        }
+
+        ```
+
+        3. Open another terminal. Click **Terminal** in the top menu bar and click the **Open Terminal in specific container** item.  Click on the **vscode-javaxxx** item to open another terminal.
+
+        4. Enter the following curl command in the
+        terminal to access the function:
+
+        ```
+
+        curl localhost:8080/hello ; echo
+
+        ``` 
+      review:
+        failedTaskHelp: This task isn’t verified yet. Try the task again.
+        instructions: >-
+          #### To verify that the function is accessible by the RESTful API:
+
+          Do you see the output, **"Welcome, Quarkus Serverless Functions on the
+          Developer Sandbox!"** in the terminal?
+      summary:
+        failed: Try the steps again.
+        success: You just accessed your first serverless function locally!
+      title: Test your first serverless function
+    - description: >-
+        Add a new function using Quarkus Contexts and Dependency Injection
+        (CDI):
+
+        1. Go to the _src/main/java/org/acme_ directory and open the **MyFunctionsService.java** file.
+
+        2. Add the following code after **// Add a greeting service** line:
+
+        ```
+
+        public String greeting(String name) {
+          return "Hello " + name;
+        }
+
+        ```
+
+        Note that you don't need to save the file because CodeReady Workspaces
+        will save the changes automatically.
+
+        3. Open the existing **MyFunctions.java** file.
+
+        4. Add the following code to inject the **MyFunctionsService**:
+
+        ```
+
+        @Inject
+
+        MyFunctionsService myFunctionsService;
+
+
+        @Funq
+
+        public String greeting(String name) {
+            return myFunctionsService.greeting(name);
+        }
+
+        ```
+
+        5. Enter the following curl command in the
+        terminal to access the new function:
+
+        ```
+
+        curl --data '"Quarkus Serverless Function"' localhost:8080/greeting ;
+        echo
+
+        ``` 
+      review:
+        failedTaskHelp: This task isn’t verified yet. Try the task again.
+        instructions: >-
+          #### To verify that the new function is accessible by the RESTful API
+          with a data:
+
+          Do you see the output, **"Hello Quarkus Serverless Function"** in the
+          terminal?
+      summary:
+        failed: Try the steps again.
+        success: You just added a new serverless function to your Quarkus project!
+      title: Add a new serverless function using Quarkus CDI
+    - description: >-
+        To deploy the functions to the OpenShift cluster on the developer
+        sandbox:
+
+        1. Go to the _src/main/resources_ directory and open the **application.properties** file.
+
+        2. Uncomment the following configuration. Then, replace **USERNAME**
+        with your username (e.g. _doh_). You can also find your username in
+        OpenShift web console:
+
+        ```
+
+        quarkus.container-image.group=USERNAME-dev
+
+
+        ```
+
+        3. Go back to OpenShift web console. Then, click on your **username**
+        (e.g. _doh_) on the right top.
+
+        4. Click on **Copy login command**. Note that a new web browser or tab
+        will open automatically.
+
+        5. Log in with **DevSandbox**.
+
+        6. Click on the **Display Token** link.
+
+        7. Copy the **oc** command with a token in **Log in with this token*.
+        For example,
+
+        ```
+
+        oc login --token=sha256~h-QJe1mT7EWfO7xhOSfg9yZBd7QhWK0Y3qZVxb95IBY
+        --server=https://api.sandbox-m2.ll9k.p1.openshiftapps.com:6443
+
+        ```
+
+        8. Go back to the terminal that Quarkus dev mode is running. Stop the
+        dev mode by **CTRL-C**.
+
+        9. Paste the above command to the terminal in CodeReady Workspaces. The
+        output should look like:
+
+        ```
+
+        You have access to the following projects and can switch between them
+        with 'oc project <projectname>':
+
+
+        * YOUR_USERNAME-dev
+          YOUR_USERNAME-stage
+
+        Using project "YOUR_USERNAME-dev".
+
+        Welcome! See 'oc help' to get started.
+
+        ``` 
+
+        10. Deploy the functions by using the following **Maven** command:
+
+        ```
+
+        mvn clean package
+
+        ```
+
+        Note that it takes a few minutes to complete building and deploying the
+        applications to OpenShift.
+      review:
+        failedTaskHelp: This task isn’t verified yet. Try the task again.
+        instructions: >-
+          #### To verify that the Quarkus serverless functions are deployed
+          successfully:
+
+          Do you see the output,  **BUILD SUCCESS** in the terminal?
+      summary:
+        failed: Try the steps again.
+        success: >-
+          You just deployed your serverless functions to the OpenShift cluster
+          on the developer sandbox!
+      title: Deploy the Quarkus serverless function to OpenShift
+    - description: >-
+        To change the runtime icon to reflect Quarkus, and access the deployed functions on the OpenShift cluster:
+
+        1. Return to the OpenShift Console. In the navigation menu, click [Topology]{{highlight qs-nav-topology}}.
+        
+        2. Click on the **quarkus-funqy-qs-00001s** revision.
+
+        3. In the side panel, click the **Actions** dropdown menu and click
+        **Edit labels**.
+
+        4. Add this label to change the Revision icon to **Quarkus**: 
+
+        ```
+
+        app.openshift.io/runtime=quarkus
+
+        ```
+
+        5. Add this label to indicate that this is a serverless function: 
+
+        ```
+
+        boson.dev/function=true
+
+        ```
+        6. Click on **Save** to save the labels.
+
+        7. By now, the pod should have autoscaled to `0`. Hover over the pod ring with the Quarkus logo.  A blue ring indicates the pod is running.  A white ring indicates that the pod is autoscaled to 0.  The pod should autoscale to `0` after `30` seconds of no activity.
+
+        8. Click on the Resources tab of the side panel and copy the Route URL. For example,
+        it should look similar to:
+
+        ```
+
+        https://quarkus-funqy-qs-doh-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+
+        ```
+
+        9. Return to the Terminal in CodeReady Workspaces, and enter the following **curl** command to access the **greeting** function.
+        Be sure to replace **YOUR-ROUTE-URL** with the Route URL you just copied.
+
+        ```
+
+        curl --data '"Quarkus Serverless Functions"'
+        https://YOUR-ROUTE-URL/greeting ; echo
+
+        ```
+
+        10. Return to the OpenShift Console. You should see the pod
+        autoscales to `1`. Note that it might take a few seconds to scale out.
+
+        11. Return to the Terminal in CodeReady Worksapces, to access the other function (**hello**) using the following curl
+        command.  Be sure to replace **YOUR-ROUTE-URL** with the Route URL you previously copied:
+
+        ```
+
+        curl https://YOUR-ROUTE-URL/hello ; echo
+
+        ``` 
+      review:
+        failedTaskHelp: This task isn’t verified yet. Try the task again.
+        instructions: >-
+          #### To verify that the deployed functions on OpenShift are accessible
+          by the RESTful APIs:
+
+          1. Do you see the output, **"Hello Quarkus Serverless Function"** when
+          you access the **greeting** function in the terminal?
+
+          2. Do you see the output, **"Welcome, Quarkus Serverless Functions on
+          the Developer Sandbox!"** when you access the **hello** function in
+          the terminal?
+      summary:
+        failed: Try the steps again.
+        success: You just accessed the deployed serverless functions on OpenShift!
+      title: Access the functions on OpenShift
