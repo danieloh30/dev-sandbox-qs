@@ -47,8 +47,8 @@ spec:
 
         ``` 
 
-        5. Click on **Create & Open** to start your workspace. Note that it takes a few minutes to start
-        a new workspace.
+        6. Click on **Create & Open** to start your workspace. Note that it takes a few minutes to start
+        a new workspace. If a message is displayed in the bottom right corner asking if the repository is a safe repository to clone, click **Yes, i trust** to continue.  If prompted to Restart your workspace, click **Restart** to continue.
       review:
         failedTaskHelp: This task isn’t verified yet. Try the task again.
         instructions: |-
@@ -61,12 +61,9 @@ spec:
     - description: >-
         To run Quarkus development mode (Live Coding) in CodeReady Workspaces:
 
-        1. Click the **Cube** icon on the right menu in your workspace, to navigate to the Workspace view.
+        1. Click **Terminal** in the top menu bar and click the **Open Terminal in specific container** item.  Click on the **vscode-javaxxx** item to open a terminal.  Note that CodeReady Workspaces is providing a workspace with different containers for each of the tools.
 
-        2. Open Plugins > **vscode-xxxxxx**, and click on **>_ New terminal** to open the terminal.
-
-        3. Run the following Maven command in
-        the terminal window:
+        2. Run the following Maven command in the terminal window:
 
         ```
 
@@ -74,14 +71,14 @@ spec:
 
         ```
 
-        Note that it might take a few minutes to download all dependencies and
-        build the application at first.
+        It might take a few minutes to download all dependencies and
+        build the application. There are two processes that are starting on ports 5005 and 8080. 
 
-        4. Click on **yes** to open the 8080 port on the popup message (_A new
+        4. Click **yes** on the popup to open the **8080 port** (_A new
         process is now listening on port 8080 but is listening on interface
         ::xxxx:xxxx:x which is internal..._).
 
-        5. Click on **X** to close the debug popoup message (_A new process is
+        5. Click **X** to close the popup the debug popoup message (_A new process is
         now listening on port 5005 but is listening on interface 127.0.0.1 which
         is internal..._).
       review:
@@ -116,7 +113,7 @@ spec:
 
         ```
 
-        3. Open another terminal. 
+        3. Open another terminal. Click **Terminal** in the top menu bar and click the **Open Terminal in specific container** item.  Click on the **vscode-javaxxx** item to open another terminal.
 
         4. Enter the following curl command in the
         terminal to access the function:
@@ -254,7 +251,7 @@ spec:
 
         ``` 
 
-        9. Deploy the functions by using the following **Maven** command:
+        10. Deploy the functions by using the following **Maven** command:
 
         ```
 
@@ -278,7 +275,7 @@ spec:
           on the developer sandbox!
       title: Deploy the Quarkus serverless function to OpenShift
     - description: >-
-        To change the Revision icon to reflect Quarkus, and access the deployed functions on the OpenShift cluster:
+        To change the runtime icon to reflect Quarkus, and access the deployed functions on the OpenShift cluster:
 
         1. Return to the OpenShift Console. In the navigation menu, click [Topology]{{highlight qs-nav-topology}}.
         
@@ -304,7 +301,7 @@ spec:
         ```
         6. Click on **Save** to save the labels.
 
-        7. By now, the pod should have autoscaled to `0` yet. Hover over the ring with the Quarkus logo.  A blue ring indicates the pod is running.  A white ring indicates that the pod is autoscaled to 0.  The pod should autoscale to `0` after `30` seconds of no activity.
+        7. By now, the pod should have autoscaled to `0`. Hover over the pod ring with the Quarkus logo.  A blue ring indicates the pod is running.  A white ring indicates that the pod is autoscaled to 0.  The pod should autoscale to `0` after `30` seconds of no activity.
 
         8. Click on the Resources tab of the side panel and copy the Route URL. For example,
         it should look similar to:
