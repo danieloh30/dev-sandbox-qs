@@ -14,8 +14,7 @@ spec:
     OpenShift.
   displayName: Get started with Quarkus serverless functions
   durationMinutes: 10
-  icon: >-
-    data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2UwMzQwMDt9LmNscy0ye2ZpbGw6I2NlMmUwMDt9LmNscy0ze2ZpbGw6bm9uZTt9LmNscy00e2ZpbGw6I2ZmZjt9LmNscy01e2ZpbGw6I2RjZGNkYzt9LmNscy02e2ZpbGw6I2FhYTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPlJlZF9IYXQtT3BlbnNoaWZ0NC1DYXRhbG9nX0ljb25zLVNlcnZlcmxlc3M8L3RpdGxlPjxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iNTAiIGN5PSI1MCIgcj0iNTAiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik04NS4zNiwxNC42NEE1MCw1MCwwLDAsMSwxNC42NCw4NS4zNloiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik00MC41Nyw0Ny40MmEzLjg5LDMuODksMCwxLDAsMy44OCwzLjg4QTMuODksMy44OSwwLDAsMCw0MC41Nyw0Ny40MloiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMS40Miw0Ny40MkEzLjg5LDMuODksMCwxLDAsMjUuMyw1MS4zLDMuODksMy44OSwwLDAsMCwyMS40Miw0Ny40MloiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik01MC4wOSw0OC44NmgtLjE4YTQuMTEsNC4xMSwwLDAsMS0zLjI2LTEuNjMsNy42OSw3LjY5LDAsMCwwLTEyLjE2LDAsNC4xMyw0LjEzLDAsMCwxLTMuMjYsMS42M0gzMWE0LjA5LDQuMDksMCwwLDEtMy4yNS0xLjYzQTcuNjksNy42OSwwLDAsMCwxNCw1MS45M2gwVjY0LjZhMi43OSwyLjc5LDAsMCwwLDIuNzksMi43OWgxNS44TDUxLjM0LDQ4LjY2QTQsNCwwLDAsMSw1MC4wOSw0OC44NloiLz48cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik03OC4wNSw0NC4yNWE3LjY1LDcuNjUsMCwwLDAtNS44NSwzQTQuMSw0LjEsMCwwLDEsNjksNDguODZoLS4xOWE0LjEzLDQuMTMsMCwwLDEtMy4yNi0xLjYzLDcuNjksNy42OSwwLDAsMC0xMi4xNiwwLDQuMTYsNC4xNiwwLDAsMS0yLDEuNDNMMzIuNjEsNjcuMzlIODMuMTlBMi43OSwyLjc5LDAsMCwwLDg2LDY0LjZWNTIuMDdBNy43Nyw3Ljc3LDAsMCwwLDc4LjA1LDQ0LjI1WiIvPjxwYXRoIGNsYXNzPSJjbHMtNiIgZD0iTTIxLjEsNjNoMTBhMS44MywxLjgzLDAsMSwwLDAtMy42NmgtMTBhMS44MywxLjgzLDAsMCwwLDAsMy42NloiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjQwLjU3IiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjQwLjU3IiBjeT0iMjguMjMiIHI9IjEuMzUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjU5LjcyIiBjeT0iMjguMjMiIHI9IjEuMzUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjIxLjQyIiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjUwIiBjeT0iNDMuNDUiIHI9IjIuOTMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjY4Ljg5IiBjeT0iNDMuNDUiIHI9IjIuOTMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjMxLjA5IiBjeT0iNDMuNDUiIHI9IjIuOTMiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNiIgY3g9Ijc3Ljk0IiBjeT0iNTQuMzEiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNiIgY3g9IjY4LjkxIiBjeT0iNTQuMzEiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9Ijc3Ljk0IiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjU5LjcyIiBjeT0iMzcuNzMiIHI9IjIuMTUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNCIgY3g9IjUwIiBjeT0iMzMuMSIgcj0iMy4wMSIvPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuMDkiIGN5PSIzMy4xIiByPSIzLjAxIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTQiIGN4PSI2OC44OSIgY3k9IjMzLjEiIHI9IjMuMDEiLz48L3N2Zz4=
+  icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojNDY5NWViO30uY2xzLTJ7ZmlsbDojZmYwMDRhO30uY2xzLTN7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48dGl0bGU+cXVhcmt1c19pY29uX3JnYl8xMDI0cHhfcmV2ZXJzZTwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjY2OS4zNCAxODAuNTcgNTEyIDI3MS40MSA2NjkuMzQgMzYyLjI1IDY2OS4zNCAxODAuNTciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzU0LjY2IDE4MC41NyAzNTQuNjYgMzYyLjI1IDUxMiAyNzEuNDEgMzU0LjY2IDE4MC41NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMyIgcG9pbnRzPSI2NjkuMzQgMzYyLjI1IDUxMiAyNzEuNDEgMzU0LjY2IDM2Mi4yNSA1MTIgNDUzLjA5IDY2OS4zNCAzNjIuMjUiLz48cG9seWdvbiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMTg4Ljc2IDQ2Ny45MyAzNDYuMSA1NTguNzYgMzQ2LjEgMzc3LjA5IDE4OC43NiA0NjcuOTMiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzQ2LjEgNzQwLjQ0IDUwMy40MyA2NDkuNiAzNDYuMSA1NTguNzYgMzQ2LjEgNzQwLjQ0Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0zIiBwb2ludHM9IjM0Ni4xIDM3Ny4wOSAzNDYuMSA1NTguNzYgNTAzLjQzIDY0OS42IDUwMy40MyA0NjcuOTMgMzQ2LjEgMzc3LjA5Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9IjY3Ny45IDc0MC40NCA2NzcuOSA1NTguNzYgNTIwLjU3IDY0OS42IDY3Ny45IDc0MC40NCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSI4MzUuMjQgNDY3LjkzIDY3Ny45IDM3Ny4wOSA2NzcuOSA1NTguNzYgODM1LjI0IDQ2Ny45MyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMyIgcG9pbnRzPSI1MjAuNTcgNjQ5LjYgNjc3LjkgNTU4Ljc2IDY3Ny45IDM3Ny4wOSA1MjAuNTcgNDY3LjkzIDUyMC41NyA2NDkuNiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg1My40NywxSDE3MC41M0M3Ny4yOSwxLDEsNzcuMjksMSwxNzAuNTNWODUzLjQ3QzEsOTQ2LjcxLDc3LjI5LDEwMjMsMTcwLjUzLDEwMjNoNDY3LjdMNTEyLDcxNi4zOSw0MjAuNDIsOTEwSDE3MC41M0MxMzkuOSw5MTAsMTE0LDg4NC4xLDExNCw4NTMuNDdWMTcwLjUzQzExNCwxMzkuOSwxMzkuOSwxMTQsMTcwLjUzLDExNEg4NTMuNDdDODg0LjEsMTE0LDkxMCwxMzkuOSw5MTAsMTcwLjUzVjg1My40N0M5MTAsODg0LjEsODg0LjEsOTEwLDg1My40Nyw5MTBINzA1LjI4bDQ2LjUyLDExM0g4NTMuNDdjOTMuMjQsMCwxNjkuNTMtNzYuMjksMTY5LjUzLTE2OS41M1YxNzAuNTNDMTAyMyw3Ny4yOSw5NDYuNzEsMSw4NTMuNDcsMVoiLz48L3N2Zz4K
   introduction: >-
     This quick start guides you through developing and deploying a Quarkus
     serverless
@@ -29,7 +28,7 @@ spec:
     - description: >-
         To launch CodeReady Workspaces:
 
-        1. Click the **Application Launcher** icon in the top banner of the OpenShift
+        1. Click the [Application Launcher]{{highlight qs-masthead-applications}} in the top banner of the OpenShift
         Console. 
         
         2. Click the  **CodeReady Workspaces** item in the **Red Hat
@@ -54,7 +53,7 @@ spec:
         failedTaskHelp: This task isn’t verified yet. Try the task again.
         instructions: |-
           #### To verify your new workspace was successfully created:
-          Do you see a **quarkus-funqy-qs** item in the left Explorer menu and a message saying **Welcome To Your Workspace**?
+          You should see a **quarkus-funqy-qs** item in the left Explorer menu. Once the workspace is running, do you see a message saying **Welcome To Your Workspace**?
       summary:
         failed: Try the steps again.
         success: You just created a new workspace in CodeReady Workspaces!
@@ -62,13 +61,12 @@ spec:
     - description: >-
         To run Quarkus development mode (Live Coding) in CodeReady Workspaces:
 
-        1. Click the **Cube** icon () on the right menu in your workspace.
+        1. Click the **Cube** icon on the right menu in your workspace, to navigate to the Workspace view.
 
-        2. Expand **vscode-xxxxxx** in Plugins, and click on the **>_ New
-        Terminal** command.
+        2. Open Plugins > **vscode-xxxxxx**, and click on **>_ New terminal** to open the terminal.
 
         3. Run the following Maven command in
-        the new terminal window:
+        the terminal window:
 
         ```
 
@@ -102,8 +100,7 @@ spec:
     - description: >-
         To test your first serverless function:
 
-        1. In the project explorer, open the **MyFunctions.java** file in
-        _src/main/java/org/acme_ directory.
+        1. In the project explorer, go to the _src/main/java/org/acme_ directory and open the **MyFunctions.java** file.
 
         2. The **@Funq** annotation exposes the _hello_ method
         as a serverless function based on the **Funqy API**. The function name
@@ -144,8 +141,7 @@ spec:
         Add a new function using Quarkus Contexts and Dependency Injection
         (CDI):
 
-        1. Open the **MyFunctionsService.java** file in _src/main/java/org/acme_
-        directory.
+        1. Go to the _src/main/java/org/acme_ directory and open the **MyFunctionsService.java** file.
 
         2. Add the following code after **// Add a greeting service** line:
 
@@ -204,8 +200,7 @@ spec:
         To deploy the functions to the OpenShift cluster on the developer
         sandbox:
 
-        1. Open the **application.properties** file in _src/main/resources_
-        directory.
+        1. Go to the _src/main/resources_ directory and open the **application.properties** file.
 
         2. Uncomment the following configuration. Then, replace **USERNAME**
         with your username (e.g. _doh_). You can also find your username in
@@ -214,6 +209,7 @@ spec:
         ```
 
         quarkus.container-image.group=USERNAME-dev
+
 
         ```
 
@@ -225,7 +221,7 @@ spec:
 
         5. Log in with **DevSandbox**.
 
-        6. Click on **Display Token**.
+        6. Click on the **Display Token** link.
 
         7. Copy the **oc** command with a token in **Log in with this token*.
         For example,
@@ -282,15 +278,16 @@ spec:
           on the developer sandbox!
       title: Deploy the Quarkus serverless function to OpenShift
     - description: >-
-        To access the deployed functions on the OpenShift cluster:
+        To change the Revision icon to reflect Quarkus, and access the deployed functions on the OpenShift cluster:
 
-        1. To change the displayed _OpenShift_ icon to **Quarkus**, Click on the
-        **quarkus-funqy-qs-00001s** revision in Topology view.
+        1. Return to the OpenShift Console. In the navigation menu, click [Topology]{{highlight qs-nav-topology}}.
+        
+        2. Click on the **quarkus-funqy-qs-00001s** revision.
 
-        2. In the side panel, click the **Actions** dropdown menu and select
+        3. In the side panel, click the **Actions** dropdown menu and click
         **Edit labels**.
 
-        3. Add an additional label: 
+        4. Add this label to change the Revision icon to **Quarkus**: 
 
         ```
 
@@ -298,14 +295,19 @@ spec:
 
         ```
 
-        4. Click on **Save** to save the labels.
+        5. Add this label to indicate that this is a serverless function: 
 
-        5. On the **Topology view** in Developer perspective, click on the
-        displayed **OpenShift** icon. If the pod doesn't autoscale to `0` yet,
-        leave the pod at least `30` seconds.
+        ```
 
-        6. Copy Route URL in **Routes** section on Resources view. For example,
-        it should look like:
+        boson.dev/function=true
+
+        ```
+        6. Click on **Save** to save the labels.
+
+        7. By now, the pod should have autoscaled to `0` yet. Hover over the ring with the Quarkus logo.  A blue ring indicates the pod is running.  A white ring indicates that the pod is autoscaled to 0.  The pod should autoscale to `0` after `30` seconds of no activity.
+
+        8. Click on the Resources tab of the side panel and copy the Route URL. For example,
+        it should look similar to:
 
         ```
 
@@ -313,8 +315,8 @@ spec:
 
         ```
 
-        7. Enter the following **curl** command to access the **greeting** function.
-        Be sure to replace **YOUR-ROUTE-URL** with the copied route URL in the CodeReady Workspaces terminal.
+        9. Return to the Terminal in CodeReady Workspaces, and enter the following **curl** command to access the **greeting** function.
+        Be sure to replace **YOUR-ROUTE-URL** with the Route URL you just copied.
 
         ```
 
@@ -323,12 +325,11 @@ spec:
 
         ```
 
-        8. Go back to the **Topology view**. Then, make sure if the pod
-        autoscales to `1`. Note that it takes a few seconds to scale out.
+        10. Return to the OpenShift Console. You should see the pod
+        autoscales to `1`. Note that it might take a few seconds to scale out.
 
-        9. Try to access the other function (**hello**) using the following curl
-        command in the terminal after you replace **YOUR-ROUTE-URL** with your
-        own URL:
+        11. Return to the Terminal in CodeReady Worksapces, to access the other function (**hello**) using the following curl
+        command.  Be sure to replace **YOUR-ROUTE-URL** with the Route URL you previously copied:
 
         ```
 
