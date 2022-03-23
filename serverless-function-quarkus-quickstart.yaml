@@ -220,7 +220,7 @@ spec:
 
         6. Click on the **Display Token** link.
 
-        7. Copy the **oc** command with a token in **Log in with this token*.
+        7. Copy the **oc** command with a token in **Log in with this token**.
         For example,
 
         ```
